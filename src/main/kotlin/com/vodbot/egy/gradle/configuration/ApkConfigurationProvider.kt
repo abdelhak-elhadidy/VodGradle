@@ -1,18 +1,12 @@
-package com.lagradost.cloudstream3.gradle.configuration
+package com.vodbot.egy.gradle.configuration
 
-import com.lagradost.cloudstream3.gradle.ApkInfo
-import com.lagradost.cloudstream3.gradle.createProgressLogger
-import com.lagradost.cloudstream3.gradle.download
-import com.lagradost.cloudstream3.gradle.getCloudstream
-import com.googlecode.d2j.dex.Dex2jar
-import com.googlecode.d2j.reader.BaseDexFileReader
-import com.googlecode.d2j.reader.MultiDexFileReader
-import groovy.json.JsonSlurper
+import com.vodbot.egy.gradle.ApkInfo
+import com.vodbot.egy.gradle.createProgressLogger
+import com.vodbot.egy.gradle.download
+import com.vodbot.egy.gradle.getCloudstream
 import org.gradle.api.Project
 import org.gradle.api.artifacts.Dependency
-import java.lang.Integer.parseInt
 import java.net.URL
-import java.nio.file.Files
 
 class ApkConfigurationProvider : IConfigurationProvider {
 

@@ -1,8 +1,7 @@
-package com.lagradost.cloudstream3.gradle.tasks
+package com.vodbot.egy.gradle.tasks
 
-import com.lagradost.cloudstream3.gradle.getCloudstream
-import com.lagradost.cloudstream3.gradle.entities.PluginManifest
-import com.lagradost.cloudstream3.gradle.makeManifest
+import com.vodbot.egy.gradle.getCloudstream
+import com.vodbot.egy.gradle.makeManifest
 import com.android.build.gradle.BaseExtension
 import com.android.build.gradle.tasks.ProcessLibraryManifest
 import groovy.json.JsonBuilder
@@ -12,7 +11,6 @@ import org.gradle.api.tasks.AbstractCopyTask
 import org.gradle.api.tasks.bundling.Zip
 import org.gradle.api.tasks.compile.AbstractCompile
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import com.lagradost.cloudstream3.gradle.findCloudstream
 
 const val TASK_GROUP = "vodbot"
 

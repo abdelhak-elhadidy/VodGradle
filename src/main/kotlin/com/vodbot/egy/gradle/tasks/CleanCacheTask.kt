@@ -1,12 +1,8 @@
-package com.lagradost.cloudstream3.gradle.tasks
+package com.vodbot.egy.gradle.tasks
 
-import com.lagradost.cloudstream3.gradle.getCloudstream
+import com.vodbot.egy.gradle.getCloudstream
 import org.gradle.api.DefaultTask
-import org.gradle.api.tasks.AbstractCopyTask
-import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.TaskAction
-import org.gradle.api.tasks.options.Option
-import java.nio.charset.StandardCharsets
 
 abstract class CleanCacheTask : DefaultTask() {
     @TaskAction

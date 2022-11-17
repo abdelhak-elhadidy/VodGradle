@@ -1,6 +1,5 @@
-package com.lagradost.cloudstream3.gradle.tasks
+package com.vodbot.egy.gradle.tasks
 
-import com.lagradost.cloudstream3.gradle.getCloudstream
 import com.android.build.gradle.BaseExtension
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.AbstractCopyTask

@@ -1,9 +1,7 @@
-package com.lagradost.cloudstream3.gradle
+package com.vodbot.egy.gradle
 
 import org.gradle.api.Project
-import com.lagradost.cloudstream3.gradle.getCloudstream
-import com.lagradost.cloudstream3.gradle.entities.*
-import groovy.json.JsonBuilder
+import com.vodbot.egy.gradle.entities.*
 
 fun Project.makeManifest(): PluginManifest {
     val extension = this.extensions.getCloudstream()

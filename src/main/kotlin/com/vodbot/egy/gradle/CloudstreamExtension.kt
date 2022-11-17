@@ -1,9 +1,7 @@
-package com.lagradost.cloudstream3.gradle
+package com.vodbot.egy.gradle
 
 import org.gradle.api.Project
 import org.gradle.api.plugins.ExtensionContainer
-import org.gradle.api.provider.Property
-import org.gradle.api.provider.ListProperty
 import javax.inject.Inject
 
 abstract class CloudstreamExtension @Inject constructor(project: Project) {

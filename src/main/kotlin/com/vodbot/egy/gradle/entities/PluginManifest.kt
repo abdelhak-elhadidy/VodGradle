@@ -1,4 +1,4 @@
-package com.lagradost.cloudstream3.gradle.entities
+package com.vodbot.egy.gradle.entities
 
 data class PluginManifest(
     val pluginClassName: String?,

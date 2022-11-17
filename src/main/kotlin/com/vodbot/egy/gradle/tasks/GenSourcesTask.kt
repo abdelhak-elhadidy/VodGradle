@@ -1,17 +1,11 @@
-package com.lagradost.cloudstream3.gradle.tasks
+package com.vodbot.egy.gradle.tasks
 
-import com.lagradost.cloudstream3.gradle.getCloudstream
-import jadx.api.JadxArgs
-import jadx.api.JadxDecompiler
-import jadx.api.impl.NoOpCodeCache
-import jadx.api.impl.SimpleCodeWriter
-import jadx.plugins.input.dex.DexInputPlugin
+import com.vodbot.egy.gradle.getCloudstream
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction
-import java.util.function.Function
 import java.net.URL
-import com.lagradost.cloudstream3.gradle.download
-import com.lagradost.cloudstream3.gradle.createProgressLogger
+import com.vodbot.egy.gradle.download
+import com.vodbot.egy.gradle.createProgressLogger
 
 abstract class GenSourcesTask : DefaultTask() {
     @TaskAction

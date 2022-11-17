@@ -1,4 +1,4 @@
-package com.lagradost.cloudstream3.gradle
+package com.vodbot.egy.gradle
 
 import org.gradle.api.Project
 import org.gradle.api.internal.project.ProjectInternal

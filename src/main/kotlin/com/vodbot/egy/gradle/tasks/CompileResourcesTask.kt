@@ -1,4 +1,4 @@
-package com.lagradost.cloudstream3.gradle.tasks
+package com.vodbot.egy.gradle.tasks
 
 import com.android.build.gradle.BaseExtension
 import org.gradle.api.file.DirectoryProperty
